@@ -12,7 +12,7 @@ app.post('/api/sum', (req, res) => {
         return res.status(400).json({ error: 'Invalid input' });
     }
 
-    // Respond with the sum
+    
     const sum = a + b;
     res.json({ sum });
 });
