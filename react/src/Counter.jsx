@@ -4,6 +4,7 @@ export default function Counter({ initial = 0 }) {
   // TODO: implement
   const [count, setCount]=useState(0);
 
+  //Increment function
   const handleIncrement = () => {
     setCount(prevCount => prevCount + 1);
   };
